@@ -10,7 +10,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <router-link to="/portfolio" active-class="active" tag="li"><a>Portfolio</a></router-link>
-                    <router-link to="/stocks" tag="li"><a>Stocks</a></router-link>
+                    <router-link to="/stocks" active-class="active" tag="li"><a>Stocks</a></router-link>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="|#">End Day</a></li>
