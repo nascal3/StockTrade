@@ -42,16 +42,16 @@
             }
         },
         methods: {
-            // ...mapActions([
-            //     'stockSell'
-            // ]),
+            ...mapActions([
+                'stockSell'
+            ]),
             sellStock() {
                 const order = {
                     stockId: this.stock.id,
                     stockPrice: this.stock.price,
                     quantity: this.quantity
                 };
-                this.$store.dispatch('stockSell', order);
+                this.stockSell(order);
                 this.quantity = 0;
             }
         },
