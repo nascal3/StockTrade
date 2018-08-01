@@ -14,6 +14,7 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="|#">End Day</a></li>
+                    <strong class="navbar-text navbar-right">Funds: {{funds}} </strong>
                     <li class="dropdown">
                         <a href="#"
                            class="dropdown-toggle"
@@ -33,7 +34,12 @@
 
 <script>
     export default {
-        name: "header"
+        name: "header",
+        computed: {
+            funds() {
+                return this.$store.getters.funds;
+            }
+        }
     }
 </script>
 
