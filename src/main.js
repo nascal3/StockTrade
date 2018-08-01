@@ -7,6 +7,10 @@ import store from './store/store.js';
 
 Vue.use(VueRouter);
 
+Vue.filter('currency', (value) => {
+    return 'KSh' + value.toLocaleString();
+});
+
 const router = new VueRouter({
     mode: 'history',
     routes
