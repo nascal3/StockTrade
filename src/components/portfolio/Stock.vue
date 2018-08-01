@@ -1,6 +1,6 @@
 <template>
     <div class="col-sm-6 col-md-4">
-        <div class="panel panel-success">
+        <div class="panel panel-info">
             <div class="panel-heading">
                 <h3 class="panel-title">
                     {{stock.name}}
@@ -28,7 +28,7 @@
         name: "stock",
         props: {
             stock: {
-                type: Array
+                type: Object
             },
         },
         data() {
@@ -37,16 +37,17 @@
             }
         },
         methods: {
-            ...mapActions([
-                'sellStock'
-            ]),
+            // ...mapActions([
+            //     'stockSell'
+            // ]),
             sellStock() {
                 const order = {
                     stockId: this.stock.id,
                     stockPrice: this.stock.price,
                     quantity: this.quantity
                 };
-                this.sellStock();
+                this.$store.dispatch('stockSell', order);
+                this.quantity = 0;
             }
         },
     }
