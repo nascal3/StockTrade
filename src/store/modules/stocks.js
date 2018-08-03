@@ -1,5 +1,3 @@
-import stocks from '../../data/stocks.js';
-
 const state =  {
     stocks: []
 };
