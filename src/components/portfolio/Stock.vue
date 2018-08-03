@@ -29,7 +29,7 @@
         props: {
             stock: {
                 type: Object
-            },
+            }
         },
         data() {
             return {
@@ -42,16 +42,17 @@
             }
         },
         methods: {
-            ...mapActions([
-                'stockSell'
-            ]),
+            ...mapActions({
+                placeStockOrder:'sellStock'
+            }),
             sellStock() {
                 const order = {
                     stockId: this.stock.id,
                     stockPrice: this.stock.price,
                     quantity: this.quantity
                 };
-                this.stockSell(order);
+                // this.$store.dispatch('sellStock', order);
+                this.placeStockOrder(order);
                 this.quantity = 0;
             }
         },
