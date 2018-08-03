@@ -29,11 +29,12 @@ const mutations = {
         state.funds = portfolio.funds,
         state.stocks = portfolio.stockPortfolio ? portfolio.stockPortfolio : [];
     }
-}
+};
 
 const action = {
-    stockSell: ({commit}, order) => {
-        commit('SELL_STOCK', order)
+    sellStock ({commit}, order) {
+        console.log('am selling');
+        commit('SELL_STOCK', order);
     }
 };
 
