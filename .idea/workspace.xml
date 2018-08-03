@@ -163,44 +163,6 @@
               <item name="stocks" type="b2602c69:ProjectViewProjectNode" />
               <item name="stocks" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="stocks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stocks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stocks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stocks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stocks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stocks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stocks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stocks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="stocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stocks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stocks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stocks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stocks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -241,12 +203,12 @@
       <workItem from="1533039639063" duration="7339000" />
       <workItem from="1533126959071" duration="10236000" />
       <workItem from="1533139126566" duration="10830000" />
-      <workItem from="1533301337582" duration="4834000" />
+      <workItem from="1533301337582" duration="5885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49660000" />
+    <option name="totallyTimeSpent" value="50711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="0" width="1292" height="663" extended-state="0" />
@@ -254,10 +216,10 @@
       <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.24960127" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24960127" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50398725" side_tool="true" weight="0.4852174" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49601275" visible="true" weight="0.38941398" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49601275" visible="true" weight="0.38941398" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
